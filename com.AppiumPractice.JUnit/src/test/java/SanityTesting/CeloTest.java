@@ -1,4 +1,4 @@
-package Regression;
+package SanityTesting;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
