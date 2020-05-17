@@ -22,7 +22,7 @@ public class CeloBase {
 		// Appium Config.
 		
 		File f= new File("src");
-		File fs= new File(f,"Celo-Staging-483-(1.16.18-staging).apk");
+		File fs= new File(f,"Celo-Staging-496-(1.16.29-staging).apk");
 		
 		DesiredCapabilities cap= new DesiredCapabilities();
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel 3");

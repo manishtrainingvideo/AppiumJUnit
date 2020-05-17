@@ -23,7 +23,7 @@ public class CaptureScreenshot {
 		File f= ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		
 		try{
-			FileUtils.copyFile(f, new File("C:\\Users\\manish8.kumar\\git\\AppiumAutomationFW\\com.Celo.Appium\\abc.png"));
+			FileUtils.copyFile(f, new File("C:\\Users\\manish8.kumar\\git\\AppiumJUnit\\com.AppiumPractice.JUnit\\abc.png"));
 		}catch(Exception ex){
 		
 		System.out.println("Exception " + ex.toString());

@@ -14,7 +14,7 @@ public class ScrollFeature {
 	
 	public void scroll(String text) {
 		
-		driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(text(\""+text+"\"))").click();
+		driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(text(\""+text+"\"))");
 		
 	}
 	

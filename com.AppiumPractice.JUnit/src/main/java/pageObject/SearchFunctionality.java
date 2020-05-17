@@ -28,8 +28,11 @@ public class SearchFunctionality {
 //		
 //		return dropdown;
 //	}
-	@AndroidFindBy(xpath="//android.widget.TextView[@text='AravindMG25 Staging']")
-	public WebElement searchMatchResult;
+	@AndroidFindBy(xpath="//android.widget.TextView[@text='Test 50 group']")
+	public WebElement searchGroup;
+	
+	@AndroidFindBy(xpath="//android.widget.TextView[@text='Aravind Staging']")
+	public WebElement searchSingleUser;
 	
 	
 	
